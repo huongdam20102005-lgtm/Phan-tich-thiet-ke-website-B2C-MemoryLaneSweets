@@ -1,0 +1,29 @@
+# Maven Build Output
+target/
+*.war
+*.ear
+*.jar
+*.class
+
+# IDE & Editor Configurations
+.idea/
+*.iml
+.vscode/
+nbproject/private/
+nbproject/Makefile-*.mk
+nbproject/Package-*.bash
+build/
+dist/
+
+# OS & Temporary Files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+*.log
+
+# Environment & Secrets
+.env
+.env.local
+*.secret

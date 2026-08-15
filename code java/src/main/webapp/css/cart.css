@@ -1,0 +1,67 @@
+/* --- CART.CSS: Chỉ cho trang Giỏ hàng --- */
+/* Giữ comment để bạn dễ kiểm tra/chỉnh */
+.cart-page{padding:20px 0 50px;font-family:Arial,sans-serif}
+.cart-banner{background:var(--bg-soft,#f7f3e8);padding:30px 0;margin-bottom:30px;text-align:center}
+.banner-title{font-size:24px;font-weight:500;color:#4a4a4a}
+.cart-page h1{font-size:28px;margin-bottom:10px;color:#333}
+.cart-page hr{margin-bottom:30px;border:0;border-top:1px solid #ddd}
+
+/* LAYOUT: Dùng grid cho độ ổn định, dễ responsive */
+.cart-content-wrapper{display:grid;grid-template-columns:1fr 320px;gap:28px;align-items:start}
+
+/* HEADER hàng (ẩn trên mobile) */
+.cart-header-row{display:grid;grid-template-columns:45% 15% 20% 20%;font-weight:700;color:var(--muted,#666);padding:8px 0;border-bottom:1px solid #e8e8e8}
+.cart-item-row{display:grid;grid-template-columns:45% 15% 20% 20%;gap:12px;align-items:center;padding:14px 0;border-bottom:1px solid #f0f0f0}
+
+/* Cột 1 - sản phẩm */
+.col-product-detail{display:flex;align-items:center;gap:12px}
+.cart-item-img{width:110px;height:90px;object-fit:cover;border:1px solid #e2e2e2;border-radius:6px}
+.item-name{font-weight:600}
+.item-remove-link{font-size:13px;color:#999;text-decoration:none}
+.item-remove-link:hover{color:#cc0000}
+
+/* Giá và tổng */
+.col-price,.col-total{font-weight:700;color:#222;font-size:15px}
+.col-price{text-align:left}
+.col-total{text-align:right}
+
+/* Số lượng */
+.quantity-update-form{display:flex;align-items:center;justify-content:center;gap:6px;border:1px solid #e6e6e6;padding:4px;border-radius:6px;width:110px;margin:0 auto}
+.qty-input{width:44px;text-align:center;border:none;background:transparent;font-size:15px}
+.qty-input::-webkit-outer-spin-button,.qty-input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.btn-qty-minus,.btn-qty-plus{background:#ddd;border:none;padding:6px 8px;border-radius:4px;cursor:pointer}
+.btn-qty-minus:hover,.btn-qty-plus:hover{background:#cfcfcf}
+
+/* Ghi chú */
+.cart-notes-and-promo{margin-top:24px}
+.note-title{font-style:italic;color:#666;margin-bottom:8px}
+.customer-notes{width:100%;min-height:90px;padding:10px;border:1px solid #e6e6e6;border-radius:6px}
+
+/* Sidebar tổng kết */
+.order-summary{background:#fff;padding:18px;border:1px solid #e6e6e6;border-radius:8px}
+.summary-line{display:flex;justify-content:space-between;padding:8px 0;font-size:15px}
+.summary-buttons{display:flex;justify-content:flex-end;gap:10px;margin-top:6px;margin-bottom:10px}
+.summary-buttons .btn{padding:8px 14px;border:1px solid #ddd;background:#f7f7f7;cursor:pointer}
+.summary-buttons .btn-update{background:#cc0000;color:#fff;border-color:#cc0000}
+.grand-total{font-size:18px;font-weight:700;color:#cc0000;margin-top:6px;border-top:1px solid #eee;padding-top:12px}
+.btn-checkout-link{display:block;text-align:center;background:#cc0000;color:#fff;padding:12px;border-radius:6px;margin-top:16px;text-decoration:none}
+
+/* Empty cart */
+.empty-cart-message{text-align:center;padding:30px}
+
+/* MOBILE: đẹp, gọn, ẩn header-row */
+@media (max-width:768px){
+  .cart-content-wrapper{display:flex;flex-direction:column;gap:18px}
+  .cart-header-row{display:none}
+  .cart-item-row{display:grid;grid-template-columns:1fr 120px;grid-auto-rows:min-content;gap:8px}
+  .col-product-detail{grid-column:1/2}
+  .col-price{grid-column:2/3;text-align:right}
+  .col-quantity{grid-column:1/2}
+  .col-total{grid-column:1/2;text-align:left}
+  .cart-item-img{width:140px;height:100px}
+  .order-summary{width:100%}
+  .quantity-update-form{width:auto}
+}
+
+/* Tối ưu: tránh override global khác (prefix) */
+/* Nếu cần override, thêm .cart-page ... (đã đặt các selector bên trên) */

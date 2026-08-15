@@ -1,0 +1,124 @@
+.checkout-page {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 20px;
+}
+
+.checkout-container {
+    background: white;
+    width: 650px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+.checkout-title {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form-block {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form-block input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.btn-checkout {
+    width: 100%;
+    background: #b45a2b;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.btn-checkout:hover {
+    opacity: 0.9;
+}
+/* Bổ sung vào checkout_payment.css */
+
+/* Định kiểu cho tiêu đề Phương thức */
+.payment-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 2px solid #b45a2b; /* Màu nâu cam */
+    padding-bottom: 8px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* Khung chứa các lựa chọn */
+.shipping-box, .payment-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+/* Định kiểu cho mỗi lựa chọn (Vận chuyển và Thanh toán) */
+.shipping-option, .payment-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Đẩy giá ra góc phải */
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Định kiểu cho lựa chọn đã check */
+.shipping-option input[type="radio"]:checked + span, 
+.payment-option input[type="radio"]:checked + span {
+    color: #b45a2b;
+    font-weight: bold;
+}
+
+/* Định kiểu cho giá vận chuyển */
+.ship-price {
+    font-weight: 600;
+    color: #555;
+    margin-left: auto; /* Đẩy giá về bên phải */
+}
+
+/* Nút hoàn tất đơn hàng */
+.btn-pay {
+    width: 100%;
+    background: #b45a2b;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.btn-pay:hover {
+    background: #a0522d;
+}
+
+/* Đảm bảo payment-container có chiều rộng hợp lý */
+.payment-container {
+    width: 550px; /* Điều chỉnh chiều rộng để cân đối với sidebar 320px */
+    max-width: 100%;
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
