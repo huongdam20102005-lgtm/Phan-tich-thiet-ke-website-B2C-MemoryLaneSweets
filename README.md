@@ -127,7 +127,7 @@ Chi tiết toàn bộ 14 quy tắc nghiệp vụ xem tại: [`docs/01-business/0
 
 ## 10. REQUIREMENT TRACEABILITY MATRIX (RTM)
 
-Hệ thống thiết lập chuỗi truy vết xuyên suốt 8 tầng từ **BR $\rightarrow$ UR $\rightarrow$ FR $\rightarrow$ US/UC $\rightarrow$ Rule $\rightarrow$ Feature $\rightarrow$ UI $\rightarrow$ Servlet $\rightarrow$ Code $\rightarrow$ Status**.
+Hệ thống thiết lập chuỗi ma trận truy vết 10 cấp độ (10-level requirements-to-implementation traceability chain) từ **BR $\rightarrow$ UR $\rightarrow$ FR $\rightarrow$ US/UC $\rightarrow$ Rule $\rightarrow$ Feature $\rightarrow$ UI $\rightarrow$ Servlet $\rightarrow$ Code $\rightarrow$ Status**.
 
 * **Độ bao phủ chuỗi bán hàng cốt lõi**: **100% Complete** (10/10 chức năng Storefront hoạt động hoàn chỉnh từ Giao diện đến CSDL).
 * **Độ bao phủ toàn hệ thống**: **62.5% Complete** | **37.5% Roadmap Gaps** (được định vị rõ ràng cho giai đoạn 2).
@@ -267,13 +267,14 @@ Toàn bộ tài liệu nghiệp vụ đã được số hóa và chuẩn hóa th
 
 ## 16. BA PORTFOLIO HIGHLIGHTS
 
-Dự án thể hiện trọn vẹn các năng lực cốt lõi của một **Senior Business Analyst / System Analyst**:
+Demonstrates end-to-end Business Analysis and System Analysis capabilities through requirements analysis, business rules, functional requirements, user stories, use cases, acceptance criteria, process modeling, system analysis, traceability, and testing artifacts:
 
 * **Requirement Elicitation & Industry Domain**: Khảo sát bài toán thực tế ngành bánh tươi, xử lý bài toán hạn sử dụng ngắn và kiểm soát tồn kho theo ngày.
-* **Process Modeling (UML & BPMN)**: Xây dựng 14 sơ đồ hoạt động (Activity Diagrams), 7 sơ đồ Use Case và biểu diễn quy trình bằng cú pháp Mermaid Sequence/Flowchart chuẩn quốc tế.
+* **Process Modeling (UML & BPMN)**: Khai thác 14 sơ đồ hoạt động (Activity Diagrams) và 7 sơ đồ Use Case trong tài liệu thiết kế hệ thống gốc, kết hợp 5 đặc tả User Stories / Use Cases chi tiết và 8 sơ đồ trực quan hóa Mermaid (Sequence, Flowchart, ERD, State Diagram) trong `docs/`.
 * **Business Rules & Data Integrity**: Quản trị tập trung 14 quy tắc nghiệp vụ, kiểm soát điều kiện biên tồn kho và thiết kế CSDL quan hệ chuẩn hóa 3NF.
-* **End-to-End Traceability (RTM)**: Thiết lập ma trận truy vết 8 tầng liên kết từ mục tiêu kinh doanh đến từng dòng mã nguồn Java.
+* **End-to-End Traceability (RTM)**: Thiết lập chuỗi ma trận truy vết 10 cấp độ (10-level requirements-to-implementation traceability chain) liên kết từ mục tiêu kinh doanh đến các thành phần triển khai trong mã nguồn Java.
 * **Gap Analysis & Critical Thinking**: Bóc tách chính xác 4 nhóm chênh lệch giữa tài liệu thiết kế và mã nguồn thực tế, nhận diện mâu thuẫn ràng buộc CSDL và đưa ra giải pháp khắc phục triệt để.
+
 
 ---
 
