@@ -3,7 +3,7 @@
 > **Mã tài liệu**: `DOC-ANA-01`  
 > **Dự án**: Website Bán Bánh Ngọt B2C (Memory Lane Sweets)  
 
-Tài liệu này đối chiếu toàn diện giữa **Tài liệu phân tích thiết kế ban đầu** và **Mã nguồn triển khai thực tế**, phân loại thành 4 nhóm chênh lệch chuyên sâu theo chuẩn thực hành của Senior Business Analyst.
+Tài liệu này đối chiếu toàn diện giữa **Tài liệu phân tích thiết kế ban đầu** và **Mã nguồn triển khai thực tế**, phân loại thành 4 nhóm chênh lệch chuyên sâu theo phương pháp phân tích nghiệp vụ và hệ thống.
 
 ---
 

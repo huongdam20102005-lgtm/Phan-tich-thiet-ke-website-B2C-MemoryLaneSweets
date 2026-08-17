@@ -2,9 +2,10 @@
 
 > **Mã tài liệu**: `DOC-AUDIT-01`  
 > **Dự án**: Website Bán Bánh Ngọt Trực Tuyến B2C (**Memory Lane Sweets**)  
-> **Kiểm toán viên**: Senior Business Analyst & Lead System Analyst  
+> **Phạm vi kiểm toán**: Business Analysis & System Analysis Quality Assurance  
 > **Thời điểm kiểm toán**: Tháng 08/2026  
-> **Mục tiêu kiểm toán**: Thẩm định tính nhất quán, khả năng truy vết (Traceability), độ chính xác giữa tài liệu và mã nguồn thực tế, phát hiện rủi ro logic/kỹ thuật và đảm bảo chất lượng đồ án đạt chuẩn **BA Portfolio Quốc tế**.
+> **Mục tiêu kiểm toán**: Thẩm định tính nhất quán, khả năng truy vết (Traceability), độ chính xác giữa tài liệu và mã nguồn thực tế, phát hiện rủi ro logic/kỹ thuật và đảm bảo chất lượng tài liệu phân tích nghiệp vụ & hệ thống.
+
 
 ---
 
@@ -173,7 +174,7 @@ gantt
 
 ---
 
-## 7. KẾT LUẬN KIỂM TOÁN CỦA SENIOR BUSINESS ANALYST
+## 7. KẾT LUẬN KIỂM TOÁN TÀI LIỆU PHÂN TÍCH NGHIỆP VỤ & HỆ THỐNG
 
 Bộ tài liệu được xây dựng tại thư mục `docs/` đã:
 1. **Phản ánh trung thực 100% hiện trạng dự án**: Tuyệt đối không bịa đặt yêu cầu, gán nhãn nguồn gốc minh bạch (`Documented`, `Implemented`, `Derived from implementation`, `Gap`).
